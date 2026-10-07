@@ -97,9 +97,9 @@
         <nav>
             <a href="{{ url_for('index') }}">Treinos</a>
             <a href="{{ url_for('novo_treino') }}">Novo treino</a>
-            <a href="{{ url_for('login') }}">Login</a>
-            <a href="{{ url_for('registro') }}">Cadastro</a>
-            <a href="{{ url_for('logout') }}">Sair</a>
+            <a href="{{ url_for('auth.login') }}">Login</a>
+            <a href="{{ url_for('auth.registro') }}">Cadastro</a>
+            <a href="{{ url_for('auth.logout') }}">Sair</a>
         </nav>
     </header>
 

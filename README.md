@@ -25,3 +25,9 @@ Acesse `http://127.0.0.1:5000`.
 ## Observação
 
 Não substitua a aplicação por outro projeto. A tarefa é adaptar esta base para autenticação com `session`, completando o módulo `auth.py` e mantendo as rotas de treinos em `app.py`.
+
+1- para unificar em um arquivo só todas as rotas que são semelhantes (boas praticas)
+
+2- o codigo guarda o id na variavel session["usuario_id"]
+
+3- porque o codigo verifica se o usuario_id cadastrado no banco é o mesmo usuario_id da sessão atual
